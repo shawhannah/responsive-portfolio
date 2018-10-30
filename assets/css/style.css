@@ -1,0 +1,239 @@
+
+header {
+    background-color: #597761;
+    padding: 30px;
+    font-size: 25px;
+    color: white;
+    margin: 0 auto;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#titlename {
+    color: white;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#portfolio {
+    float: right;
+    color: white;
+    padding-right: 15px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+#contact {
+    float: right;
+    color: white;
+    padding-right: 15px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+#about {
+    float: right;
+    color: white;
+    padding-right: 15px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../images/hip-square.png");
+}
+
+h1 {
+    color: #597761;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+h2 {
+    color: #597761;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+img {
+    float: left;
+    height: 267px;
+    width: 200px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+form {
+    padding: 20px;
+}
+
+.container {
+  width: 500px;
+  clear: both;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+  height: 100%;
+}
+
+
+input[name=name] {
+    width: 900px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    box-align: center;
+}
+
+input[name=email] {
+    width: 900px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    box-align: center;
+    
+}
+
+input[name=message] {
+    width: 900px;
+    height: 200px;
+    margin: 8px 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    box-align: center;
+}
+
+input[type=submit] {
+    width: 100px;
+    display: block;
+    margin-left: 400px;
+}
+
+.box-set {
+    position: relative;
+    height: 400px;
+    background: white;
+  }
+
+.box {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    background: darkgray;
+    color: white;
+    text-align: center;
+  }
+  
+.box-1 {
+    top: 35%;
+    left: 25%;
+    background-image: url("../images/unc mj school.jpg");
+    background-size: 150px 150px;
+  }
+  
+.box-2 {
+    top: 35%;
+    right: 42%;
+    background-image: url("../images/fleet\ feet.jpeg");
+    background-size: 150px 150px;
+  }
+
+.box-3 {
+    right: 42%;
+    bottom: 15%;
+    background-image: url("../images/IBM\ logo.jpg");
+    background-size: 150px 150px;
+  }
+  
+.box-4 {
+    bottom: 15%;
+    left: 25%;
+    background-image: url("../images/zift.png");
+    background-size: 150px 150px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+
+.box-5 {
+    bottom: 15%;
+    right: 25%;
+    background-image: url("../images/cropped-logo-initials-2.jpg");
+    background-size: 150px 150px;
+}
+
+.box-6 {
+    top: 35%;
+    right: 25%;
+    background-image: url("../images/vert&vogue.jpeg");
+    background-size: 150px 150px;
+}
+
+#footer {
+    margin: 0px;
+    background-color: #597761;
+    height: 45px;
+    overflow: auto;
+    color: #fff;
+    font-size: small;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 3px;
+}
+
+  @media screen and (max-width: 640px) {
+    header {
+      position: static;
+    }
+    body {
+        font-weight: lighter;
+        font-size: smaller;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+    header {
+        font-size: larger;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+        font-weight: lighter;
+    }
+  }
